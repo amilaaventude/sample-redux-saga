@@ -39,8 +39,9 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Description
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Redux saga is one of middleware library that can be used for Redux store. This can be accessing browser storage or I/O operation or HTTP request. redux store by default knows to dispatch actions and update its state using its root reducer. Actions represent of event describing something triggering in app and an interaction to change state. Reducer accumulates values from or stemming from dispatched actions and accumulates these values into the newly updated state. Actions are simply objects passed on into the reducer. 
+Redux middleware lies between an action and a reducer. Cause of this actions it will contain a plain object, as long as the middleware intercepts this, performs its logic, and returns a plain object to pass along to the reducer. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
