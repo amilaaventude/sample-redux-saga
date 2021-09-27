@@ -17,5 +17,6 @@ Redux saga is one of middleware library that can be used for Redux store. This c
 ### Basic stucture  how it works  
 ![image](https://user-images.githubusercontent.com/88363725/134850567-001ee238-55a9-41c3-9ea0-0cfa37afbfef.png)
 
-### Basic stucture  how flow continiues
-![image](https://user-images.githubusercontent.com/88363725/134850689-62c88792-4fb0-4cab-b58c-3a06ffb31b90.png)
+### Basic stucture  how flow continiues with saga
+![image](https://user-images.githubusercontent.com/88363725/134850925-611513ef-7de4-4278-9721-f3ed2f5501a4.png)
+
