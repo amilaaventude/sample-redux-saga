@@ -13,3 +13,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ## Description
 Redux saga is one of middleware library that can be used for Redux store. This can be accessing browser storage or I/O operation or HTTP request. redux store by default knows to dispatch actions and update its state using its root reducer. Actions represent of event describing something triggering in app and an interaction to change state. Reducer accumulates values from or stemming from dispatched actions and accumulates these values into the newly updated state. Actions are simply objects passed on into the reducer.Redux middleware lies between an action and a reducer. Cause of this actions it will contain a plain object, as long as the middleware intercepts this, performs its logic, and returns a plain object to pass along to the reducer. 
+
+![image](https://user-images.githubusercontent.com/88363725/134850567-001ee238-55a9-41c3-9ea0-0cfa37afbfef.png)
